@@ -1,0 +1,23 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Local environment
+.env
+.env.*
+!.env.example
+.envrc
+.direnv/
+
+# Build artifacts
+bin/
+dist/
+*.test
+*.out
+coverage.out
+*.coverprofile
+
+# Logs
+*.log
+build-errors.log
